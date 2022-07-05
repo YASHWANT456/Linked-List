@@ -103,9 +103,6 @@ int main()
     insertattail(head,1);
     insertattail(head,1);
     insertattail(head,1);
-    cout<<"List : "<<endl;
-    display(head);
-    cout<<endl;
     if(palindrome(head))
     {
         cout<<"List is palindrome";
